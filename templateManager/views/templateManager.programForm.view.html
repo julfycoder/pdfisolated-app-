@@ -1,0 +1,8 @@
+﻿<div class="form-group is-empty" >
+    <span class="col-md-2 control-label">Program & status <span class="text-danger">*</span></span>
+    <div class="col-md-10">
+        <select class="col-md-4 form-control" id="selectProgram">
+            <option *ngFor="let p of tmpService.programs">{{p.name}}</option>
+        </select>
+    </div>
+</div>
